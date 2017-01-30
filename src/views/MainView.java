@@ -49,11 +49,6 @@ public class MainView extends JFrame {
         contentPane.setLayout(new FlowLayout()); 
         contentPane.add(spacer);
         
-        JLabel members = new JLabel("<html>Daniyal Rao <br> Sheikh Khaled Reza <br> Khushbu Randive <br> Hiral Bhut <br> Muhammad Taha Qureshi</html>");
-        members.setForeground(Color.white);
-        contentPane.setLayout(new FlowLayout()); 
-        contentPane.add(members);
-
         this.buttonNewGame = new JButton("New game");
         this.buttonNewGame.setBounds(110, 200, 140, 23);
         this.buttonNewGame.addActionListener(mainController);
